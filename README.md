@@ -1,5 +1,5 @@
 # frp_for_magisk
-frp的magisk模块,支持与frp一致的配置文件
+frp的magisk模块,支持与frp一致的配置文件 frp项目：https://github.com/fatedier/frp
 
 magisk安装后重启
 
