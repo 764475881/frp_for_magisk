@@ -5,4 +5,4 @@ magisk安装后重启
 
 目录位置:/data/adb/modules/frp_for_magisk
 
-修改frpc.toml即可，每两分钟检测配置文件是否变化，修改后会自动重启任务
+修改frpc.toml即可，修改后配置文件后会检测并自动重启任务，检测频率为两分钟
