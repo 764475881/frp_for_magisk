@@ -1,0 +1,10 @@
+#与frp项目配置文件规则一致，具体规则查看 https://github.com/fatedier/frp/blob/dev/conf/frpc_full_example.toml 当前frp版本0.61.1
+serverAddr = "127.0.0.1"
+serverPort = 7000
+
+[[proxies]]
+name = "test-tcp"
+type = "tcp"
+localIP = "127.0.0.1"
+localPort = 22
+remotePort = 6000
