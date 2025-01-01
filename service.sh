@@ -1,6 +1,5 @@
 #!/data/adb/magisk/busybox sh
 MODDIR=${0%/*}
-# MODDIR="$(dirname $(readlink -f "$0"))"
 echo $MODDIR >> ${MODDIR}/frpc.log
 
 chmod 755 ${MODDIR}/*
